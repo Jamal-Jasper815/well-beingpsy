@@ -10,6 +10,7 @@ const AdminPage = async () => {
   const appointments = await getRecentAppointmentList();
 
   return (
+  
     <div className="mx-auto flex max-w-7xl flex-col space-y-14">
       <header className="admin-header">
         <Link href="/" className="cursor-pointer">
@@ -27,9 +28,9 @@ const AdminPage = async () => {
 
       <main className="admin-main">
         <section className="w-full space-y-4">
-          <h1 className="header">Welcome 👋</h1>
+          <h1 className="header">Here to Help You 😊</h1>
           <p className="text-dark-700">
-            Start the day with managing new appointments
+          Begin the day by organizing new tasks.
           </p>
         </section>
 

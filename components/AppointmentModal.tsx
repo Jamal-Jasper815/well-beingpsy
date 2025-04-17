@@ -33,6 +33,7 @@ export const AppointmentModal = ({
   const [open, setOpen] = useState(false);
 
   return (
+     
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <Button
