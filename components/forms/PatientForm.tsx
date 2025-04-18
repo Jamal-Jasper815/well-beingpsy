@@ -50,7 +50,7 @@ export const PatientForm = () => {
   };
 
   return (
- 
+    
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="flex-1 space-y-6">
         <section className="mb-12 space-y-4">
