@@ -3,7 +3,7 @@
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/
 
 import * as Sentry from "@sentry/nextjs";
-
+/*
 Sentry.init({
   dsn: "https://a16902619f5b9b93efcecdb02f6712e1@o4509176043339776.ingest.de.sentry.io/4509176052318288",
  
@@ -26,7 +26,7 @@ Sentry.init({
   // Setting this option to true will print useful information to the console while you're setting up Sentry.
   debug: false,
 });
-
+*/
 export const onRouterTransitionStart = Sentry.captureRouterTransitionStart;
 
 
